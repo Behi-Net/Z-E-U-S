@@ -9,4 +9,4 @@ COPY . .
 RUN if [ -f package.json ]; then npm install; fi
 
 # اجرای فایل اصلی پروژه
-CMD ["node", "Source.js"]
+CMD ["node", "zeus.obfuscated.js"]
